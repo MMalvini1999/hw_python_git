@@ -1,4 +1,3 @@
-
 import time
 def calculate_time(timedFunction):
 	def function():
@@ -6,7 +5,7 @@ def calculate_time(timedFunction):
 		timedFunction()
 		final_time = time.time()
 		execution_time = final_time - initial_time
-		print('Total time:', execution_time)
+		print('Total time ', execution_time)
 	return function
 def timingFunc():
 	x=0
