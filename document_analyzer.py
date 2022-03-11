@@ -6,6 +6,8 @@ def counter():
 	splitting=contents.split()
 	print(splitting)
 	i=0
+	new_dict={}
+	print(type(new_dict))
 	while i<5:
 		print("word: ")
 		i=i+1
