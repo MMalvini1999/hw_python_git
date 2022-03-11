@@ -3,8 +3,4 @@ def doubler(RandomFunc):
 		RandomFunc()
 		RandomFunc()
 	return function
-def Hello():
-	print("Hello ")
 
-Hello=doubler(Hello)
-Hello()
